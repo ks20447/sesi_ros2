@@ -12,6 +12,21 @@
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
 
+  <depend>rclpy</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>python3-jinja2</depend>
+  <depend>python3-yaml</depend>
+  <depend>python3-pyyaml</depend>
+  <depend>nav2_map_server</depend>
+  <depend>nav2_behaviors</depend>
+  <depend>nav2_planner</depend>
+  <depend>nav2_controller</depend>
+  <depend>nav2_bt_navigator</depend>
+  <depend>nav2_amcl</depend>
+  <depend>nav2_lifecycle_manager</depend>
+
+
   <export>
     <build_type>ament_python</build_type>
   </export>
