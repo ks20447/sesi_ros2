@@ -1,0 +1,32 @@
+# ROS2 specific files
+build/
+install/
+log/
+.colcon/
+.colcon_cache/
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake specific files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other common files
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+*.vscode/
+.idea/
+*.iml
+*.out
+*.log
+
+# venv specific files
+venv/

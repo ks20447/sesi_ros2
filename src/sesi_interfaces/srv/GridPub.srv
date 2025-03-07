@@ -1,0 +1,5 @@
+string agent_ns # agent namespace to subscribe to
+float64 resolution  # resolution of grid to publish
+---
+bool success # indicates successful creation of grid publisher
+string[] publisher_names # gives the names of the grid publisher topics

@@ -1,0 +1,4 @@
+string agent_ns # agent namespace
+---
+bool success # indicate successful addition of agent to emitter node 
+int32 num_agents # counts the number of active agents receiving the signal
